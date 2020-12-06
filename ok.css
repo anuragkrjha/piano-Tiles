@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: rgb(192, 69, 192)
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 90px;
+    font-size:45px;
+    text-size-adjust: -90px;
+    width: 900px;
+    padding: 10px;
+    margin: 200px 200px 20px 200px;
+
+}
+.yo{
+    background-color:rgb(192, 69, 192);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+
+    animation: rotation 55s infinite linear; 
+    margin:0;
+}
+img{
+    background-color:rgb(194, 69, 192);
+}
+.container {
+    
+   float:right;
+   width: 600px;
+   height:300px;
+   font-size:50px;
+}
+@keyframes rotation{
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
